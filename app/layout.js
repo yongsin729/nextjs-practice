@@ -22,3 +22,4 @@ export default function RootLayout({ children }) {
     </html>
   )
 }
+// 모든페이지에 만들고 싶으면 layout 파일 body부분에 삽입

@@ -26,3 +26,16 @@ body{
   margin-right: 10px;
   text-decoration: none;
 }
+.food-img{
+  width: 100%; 
+  height: auto;
+}
+.cart-item {
+  margin-left: 70px;
+  margin-right: 70px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid grey;
+  line-height: 0px;
+} 
