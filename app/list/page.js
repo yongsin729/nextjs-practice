@@ -1,15 +1,16 @@
 
 export default function List() {
-  
+  let 상품 = ['Tomato','Pasta','Coconut']
       return (
         <div>
             <h4 className="title">상품목록</h4>
-            <div className="food">
-                <h4>상품1 $40</h4>
-            </div>
-            <div className="food">
-                <h4>상품1 $40</h4>
-            </div>
+            
+            {상품.map((a,i)=>{
+              return(<div className="food">
+              <h4>{a}</h4>
+          </div>)
+            })}
+
         </div>
       )
     }
