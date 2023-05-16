@@ -24,7 +24,7 @@ function CartItem(props){// 아무데나 대충 만든건 server component
   return(
     <div className="cart-item">
         <p>{props.item}</p>
-        <p>$40</p>
+        <p style={{display:"fixed"}}>$40</p>
         <p>1개</p>
       </div>
   )
