@@ -21,14 +21,14 @@ export default function List() {
                   copy[i]>0?copy[i]=copy[i]-1:null
                   setLike(copy);
                   
-                }}>-</button>
-                <span>{like[i]}</span>
+                }}>- </button>
+                <span style={{paddingLeft:"5px",paddingRight:"5px"}}>{like[i]}</span>
                 <button onClick={()=>{
                   let copy=[...like];
                   copy[i]=copy[i]+1
                   setLike(copy);
                   
-                }}>+</button>
+                }}> +</button>
               </div>)
             })}
 
